@@ -1,0 +1,11 @@
+#login-form {
+  border-top: solid 2px #ef6a37;
+  padding-top: 20px;
+}
+#login-form input {
+  width: 440px;
+}
+
+.center {
+  margin: 0 auto;
+}

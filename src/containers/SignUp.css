@@ -1,0 +1,135 @@
+.container {
+  /* background-color: #fafafa; */
+  /* padding: 20px; */
+  margin: 0 auto;
+}
+.top {
+  box-shadow: 2px 2px 2px #ececec;
+  padding: 10px;
+}
+.signup-page {
+  display: flex;
+  background-color: white;
+  /* box-shadow: 3px 2px 2px #ececec; */
+}
+.half-block {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 30px;
+  padding: 15px;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 460px;
+}
+.wrapper h3 {
+  text-align: center;
+}
+.half-block h2 {
+  text-align: center;
+}
+
+.half {
+  display: flex;
+  flex: 8;
+}
+div .fa,
+div .far {
+  font-size: 40px;
+  align-items: center;
+  margin: 20px;
+  color: #4183d7;
+}
+#signup-form {
+  border-top: solid 2px #ef6a37;
+  padding-top: 20px;
+}
+form {
+  width: 100%;
+}
+label {
+  line-height: 30px;
+  /* font-weight: bold; */
+}
+.full-half-block {
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+input#username.full-half-block-form {
+  width: 440px;
+}
+input#email.full-half-block-form {
+  width: 440px;
+}
+
+button {
+  width: 460px;
+  background-color: #4183d7;
+  color: white;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: white;
+  color: #4183d7;
+  border: 1px solid #4183d7;
+}
+.reverse {
+  background-color: white;
+  color: #4183d7;
+  border: 1px solid #4183d7;
+  border-radius: 5px;
+}
+.reverse:hover {
+  background-color: #4183d7;
+  color: white;
+}
+.half-block-2-columns {
+  display: flex;
+  justify-content: flex-start;
+  flex: 0, 5;
+}
+
+.half-block-2-columns input {
+  flex: 1;
+  width: 200px;
+}
+
+.spacer {
+  width: 100px;
+}
+.spacer-height {
+  height: 20px;
+}
+span > li {
+  display: flex;
+  margin-bottom: 10px;
+}
+input[type="checkbox"] {
+  flex: 1;
+}
+li > label {
+  flex: 12;
+}
+#cgv {
+  width: 10px;
+}
+span > li > label {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.form-title {
+  background-color: #666666;
+  color: white;
+  text-align: left;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  padding-right: 10 10 450 10 px;
+}
