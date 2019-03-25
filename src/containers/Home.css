@@ -1,15 +1,14 @@
 body {
   background-color: #fafafa;
 }
+
 .top-home {
-  /* margin: 10 0; */
   background-color: #e6e6e6;
 }
 .search-menu {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  /* margin: 10px 0; */
   align-items: center;
 }
 #search-offer-form {
@@ -21,11 +20,7 @@ input.search-bar {
   height: 40px;
   margin-right: 10px;
 }
-/* #signup-form input {
-  margin: 20px;
-  padding: 10px;
-  width: 460px;
-} */
+
 .search-button {
   width: 250px;
   text-align: center;
@@ -51,8 +46,15 @@ input.search-bar {
   justify-content: space-around;
   align-items: center;
 }
-.fa-sort-up,
-.fa-sort-down {
+.fa-sort-up::before{
+  justify-content: space-around;
+  justify-content: flex-start;
+
+
+}
+
+.fa-sort-up::after,
+.fa-sort-down::after {
   font-size: 14px;
 }
 article label {
@@ -78,35 +80,45 @@ article label {
   text-align: left;
 }
 
+
 .list-offer-title {
   font-weight: bold;
   color: #ef6a37;
   text-align: left;
 }
 
-/* .main {
-  width: 500px;
-  margin: O auto;
-  background: white;
-} */
+
 
 article {
   border-bottom: solid 1px #d8d8d8;
   display: flex;
 }
-.list-offer-picture {
+
+.list-offer article:hover {
+  border-color: #f16b3f;
+}
+
+.list-offer-empty-picture {
   width: 200px;
   height: 200px;
   margin: 10px;
   background-color: #fafafa;
 }
+
+.list-offer-picture {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
 .list-offer {
-  width: 1024px;
+  width: calc(1024px-2px);
   margin: O auto;
   background-color: white;
-  border: solid 1px #d8d8d8;
+  /* border: solid 1px #d8d8d8; */
   box-shadow: 3px 2px 2px #ececec;
 }
+
+
 a:link {
   font-style: inherit;
   /* style: none; */

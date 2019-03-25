@@ -5,13 +5,22 @@ main {
 }
 .left-block {
   width: 490px;
-  margin: 15px;
+  margin:0 30px 0 0;
 }
-
-.picture {
+.empty-picture {
   flex: 1;
   height: 300px;
   background-color: #d8d8d8;
+}
+.picture-container{ 
+  width: 490px;
+  background-color: #fafafa;
+
+
+}
+.picture {
+  flex: 1;
+  object-fit: cover;
 }
 .price {
   color: #f4a440;
@@ -72,13 +81,3 @@ main {
   color: #ef6a37;
 }
 
-/* .menu-left :after {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 10px 20.3px 10px;
-  border-color: transparent transparent red transparent;
-  position: absolute;
-  top: 40px;
-  left: 400px;
-} */
